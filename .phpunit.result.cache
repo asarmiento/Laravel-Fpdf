@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":265:{a:2:{s:7:"defects";a:2:{s:36:"AccessHandleTest::it_can_instantiate";i:4;s:49:"Asarmiento\Fpdf\Test\FpdfTest::it_can_instantiate";i:4;}s:5:"times";a:2:{s:36:"AccessHandleTest::it_can_instantiate";d:0.02;s:49:"Asarmiento\Fpdf\Test\FpdfTest::it_can_instantiate";d:0;}}}

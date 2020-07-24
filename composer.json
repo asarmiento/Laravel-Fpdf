@@ -1,0 +1,40 @@
+{
+  "name": "asarmiento/laravel-fpdf",
+  "description": "Un paquete para laravel para generar pdf con la libreria FPDF",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Anwar Sarmiento Ramos",
+      "email": "anwarsarmiento@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+  "psr-4": {
+    "Asarmiento\\Fpdf\\": "src/"
+  }
+},
+  "autoload-dev": {
+  "psr-4": {
+    "Asarmiento\\Fpdf\\Test\\": "tests/"
+  }
+},
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "5.8.36"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Asarmiento\\Fpdf\\FpdfServiceProvider"
+      ],
+      "aliases": {
+        "Fpdf": "Asarmiento\\Fpdf\\Facades\\Fpdf"
+      }
+    }
+  }
+}
